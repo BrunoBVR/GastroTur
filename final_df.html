@@ -14,7 +14,8 @@ title: Dados para o Projeto Iniciativas do Turismo Gastronômico no Brasil
 {% for iniciativa in iniciativas %}
 
 <ul>
-<li><strong>{{ iniciativa.Iniciativa }}</strong> ({{ iniciativa.Tipo }}, {{ iniciativa.Descrição }}, {{ iniciativa.Estagio }}, {{ iniciativa.Âmbito }}, {{ iniciativa.Periodicidade }}, {{ iniciativa.Estado }}, {{ iniciativa.Município }}, {{ iniciativa.Links-Relacionados }}, {{ iniciativa.latitude }}, {{ iniciativa.longitude }}, {{ iniciativa.Categoria }})</li>
+    <!-- <li><strong>{{ iniciativa.Iniciativa }}</strong> ({{ iniciativa.Tipo }}, {{ iniciativa.Descrição }}, {{ iniciativa.Estagio }}, {{ iniciativa.Âmbito }}, {{ iniciativa.Periodicidade }}, {{ iniciativa.Estado }}, {{ iniciativa.Município }}, {{ iniciativa.Links-Relacionados }}, {{ iniciativa.latitude }}, {{ iniciativa.longitude }}, {{ iniciativa.Categoria }})</li> -->
+    <li><strong>{{ iniciativa.Iniciativa }}</strong> ({{ iniciativa.Tipo }})</li>
 </ul>
 
 {% endfor %}
