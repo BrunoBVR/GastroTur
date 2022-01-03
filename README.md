@@ -1,6 +1,3 @@
-# GastroTur
-Dados para projeto de Turismo Gastronômico
+## Dados para o Projeto Iniciativas do Turismo Gastronômico no Brasil
 
-# Dados
-
-Update de link do Google Drive.
+Testando sincronização de dados entre Google Drive e GitHub

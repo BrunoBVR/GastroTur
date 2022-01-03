@@ -1,0 +1,20 @@
+---
+layout: default
+title: Dados para o Projeto Iniciativas do Turismo Gastronômico no Brasil
+---
+
+<h2>Dados Coletados</h2>
+
+<!-- Organizations -->
+{% assign iniciativa = site.data.final_df %}
+{% assign iniciativa = iniciativa | sort:"Iniciativa" %}
+
+<!-- Document -->
+
+{% for iniciativa in iniciativas %}
+
+<ul>
+<li><strong>{{ iniciativa.Iniciativa }}</strong> ({{ iniciativa.Tipo }}, {{ iniciativa.Descrição }}, {{ iniciativa.Estagio }}, {{ iniciativa.Âmbito }}, {{ iniciativa.Periodicidade }}, {{ iniciativa.Estado }}, {{ iniciativa.Município }}, {{ iniciativa.Links-Relacionados }}, {{ iniciativa.latitude }}, {{ iniciativa.longitude }}, {{ iniciativa.Categoria }})</li>
+</ul>
+
+{% endfor %}
